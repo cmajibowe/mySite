@@ -1,4 +1,6 @@
 body, html {
+  z-index: 0;
+  margin: 0px;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	color: #e7eaef;
@@ -7,9 +9,9 @@ body, html {
 }
 
 .titleImage {
+  margin-top: 14em;
 	width: 300px;
 	height: 300px;
-	margin: 5px;
 }
 
 .circleBorder {
@@ -18,7 +20,6 @@ body, html {
 }
 
 .titleDiv {
-	padding-top: 14em;
   height: 100%;
 }
 
