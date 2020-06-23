@@ -1,0 +1,90 @@
+body, html {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: #e7eaef;
+	background-color: #162229;
+  height: 100%;
+}
+
+.titleImage {
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+}
+
+.circleBorder {
+	border-width: 1px;
+	border-radius: 50%;
+}
+
+.titleDiv {
+	padding-top: 14em;
+  height: 100%;
+}
+
+.accent {
+	color: #05828e;
+}
+
+.title{
+	font-size: 28px;
+	margin: 5px;
+}
+
+.socialLinksIcon {
+	width: 40px;
+	height: auto;
+	margin: 10px;
+}
+
+a.github:hover {
+	content: url(img/githubHover.png);
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+a.insta:hover {
+  content: url(img/instaHover.png);
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+a.linkedin:hover {
+  content: url(img/linkedinHover.png);
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+.viewMore {
+  height: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonStyle {
+  background-color:#44c767;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color: #ffffff;
+  font-size:17px;
+  padding:12px 49px;
+  text-decoration:none;
+}
+
+.buttonStyle:hover {
+  background-color:#05828e;
+}
+
+.buttonStyle:active {
+  position:relative;
+  top:1px;
+}
+
+.portfolio {
+  background-color: #fff;
+}
